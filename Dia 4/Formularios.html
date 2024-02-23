@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario de Registro-Mi Web</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+
+
+    </head>
+    <body>
+        <center>
+
+            <h2 id="centrado"><i>Formulario de Registro</i></h2>
+
+
+        <form action="/Formulario" method="GET">
+            <fieldset>
+                <legend></legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50" placeholder="Nombre" />
+            <br><br/>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" name="apellido" maxlength="50" placeholder="Apellidos" />
+            <br><br/>
+            <label for="sexo">Sexo</label>
+            <br>
+            <label for="Hombre">Hombre</label>
+            <input type="radio" id="hombre" name="sexo" value="hombre" required/>
+            <br>
+            <label for="Mujer">Mujer</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer" required />
+            <br><br/>
+            <label for="Email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" />
+            <br><br/>
+            <label for="CasillaVerificacion">"Deseo recibir información sobre novedades y ofertas"</label>
+            <input type="checkbox" id="CasillaVerificacion" name="CasillaVerificacion" checked/>
+            <br><br/>
+            <label for="Casilla">"Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos".</label>
+            <input type="checkbox" id="Casilla" name="Casilla" />
+            <br><br/>
+            <label for="poblacion">Población:</label><br>
+        <select id="poblacion" name="poblacion">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Girón</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+        </select><br><br/>
+        <label for="descripcion">Descripción:</label><br><br/>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br><br/>
+        <input type="submit" value="Enviar">
+    </fieldset>
+    
+        <legend></legend>
+
+
+
+
+
+
+</center>
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
