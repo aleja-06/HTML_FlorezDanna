@@ -1,0 +1,31 @@
+
+.Texto{
+    max-width: 500px;
+}
+
+
+
+.texto-izquierda, .texto-derecha{
+    display: inline-block;
+    width: 48%; 
+  }
+
+
+.texto-izquierda{
+    text-align: left;
+    top: 240px;
+    position: absolute;
+    width: 230px;
+    height: 41px;
+
+}
+
+.texto-derecha{
+    text-align: right;
+    top: 242px;
+    position:absolute;
+    width: 132px;
+    height: 41px;
+
+
+}
