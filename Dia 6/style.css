@@ -1,22 +1,200 @@
 *{
-    margin: 0;
+    margin: 0px;
 }
+
+body{
+    padding-left: 20px;
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+}
+
 .Texto{
     position: absolute;
     width: 300px; 
     height: 200px; 
+    color: black;
    
 }
 
 
 #texto-izquierda{
     position: absolute;
-    top: 20;
-    left: 0;
+    top: -30px;
+    left: 50vw;
+    width: 10vw;
 }
+#texto-izquierda a{
+    color: black;text-decoration: none;
+}
+
 
 #texto-derecha{
     position: absolute;
-    top: 20;
-    right: 0;
+    top: -30px;
+    left: 65vw;
+    width: 10vw;
+    color: black;
+
 }
+
+#texto-derecha a{
+    color: black;text-decoration: none;
+}
+
+
+
+.image-search{
+    position: relative;
+    top: -30px;
+    left: 1370px;
+   
+}
+
+
+
+.image-shop{
+    position: relative;
+    top: -69px;
+    left: 1500px;
+
+    
+}
+
+.image-tarjeta{
+    
+    left: 300px;
+    position: relative;
+   
+}
+
+.Texto-abajo{
+    position: absolute;
+    
+}
+
+.image-verde{
+    position: relative;
+    top: -30px;
+    left: 1499px;
+}
+
+.icon2{
+    position: relative;
+    top: -130px;
+    left: 1499px;
+}
+
+.texto-c{
+    position: absolute;
+    top: 910px;
+    left: 1535px;
+
+}
+
+.barra-n{
+    top: 0px;
+    left: 1750px;
+    position: absolute;
+}
+
+
+.flecha-ar{
+    top: 80px;
+    left: 1830px;
+    position: absolute;
+
+
+
+}
+
+.flecha.ab{
+    top:990px;
+    left: 1840px;
+    position:absolute;
+}
+
+.t-cantidad{
+    top: 220px;
+    left: 1800px;
+    position: absolute;
+    color: white;
+}
+
+
+.n-Cantidad{
+    top: 500px;
+    left: 1790px;
+    position: absolute;
+    color: white;
+
+
+}
+
+.imag-tarjeta{
+
+    left: 550px;
+    position: relative;
+}
+
+.n-Cantidad2{
+
+    left: 1780px;
+    position: absolute;
+    color: white;
+    top: 500px;
+}
+
+.t-valor{
+
+    left: 1810px;
+    position: absolute;
+    color: white;
+    top: 300px;
+}
+
+.image-verde2{
+    top: 300px;
+    position: relative;
+    left: 1500px;
+}
+
+.icon3{
+    top: 200px;
+    position: relative;
+    left: 1500px;
+}
+
+.texto-r{
+    top: 950px;
+    position: absolute;
+    left: 1540px;
+    
+}
+
+.t-saldo{
+
+    top: 640px;
+    position: absolute;
+    left: 750px;
+    
+}
+
+.T-metrolinea{
+    top: 500px;
+    position: absolute;
+    left: 550px;
+}
+
+#descripcion{
+
+    top: 30px;
+    position: relative;
+    left: 780px;
+
+}
+
+
+
+
+
