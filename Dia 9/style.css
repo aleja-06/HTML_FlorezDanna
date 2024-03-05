@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+.grid{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        border: 10px;
+        gap: 10px;
+        padding-left: 10%;
+        padding-right: 20%;
+}
+
+.item1{
+    background-color: white;
+    grid-column: 1 ;
+    grid-row: 1;
+}
+.item2{
+    background-color: white;
+    grid-column: 2 ;
+    grid-row: 1 / 5;
+}
+.item3{
+    background-color: white;
+    grid-column: 1;
+    grid-row: 2 / 5;
+}
+
+.item4{
+    background-color: white;
+    grid-column: 1 / 3;
+
+}
