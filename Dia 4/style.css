@@ -26,8 +26,14 @@
 .fondoT{
 
     background-image: url(imgs/imagenfondo.png); 
-    height: 1200px;
-    width: 1800px;
+    height: 1800px;
+    width: 100%;
+    right: 60px;
+    top: 80px;
 
 
+}
+
+body{
+    overflow: hidden;
 }
