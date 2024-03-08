@@ -1,0 +1,349 @@
+body{
+    background: black;
+    height: 4000px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+    
+ }
+
+.fondo{
+    top: -40px;
+    position: relative;
+    left: 0px;
+    right: 40px;
+    
+}
+
+.icon{
+    position: relative;
+    top: 35px;
+    left: 60px;
+}
+
+.rectangular-icon{
+    width: 150px; 
+    height: 40px; 
+    background-color: white; 
+    border: 10px solid white;  
+    top: 200px;
+    position: absolute;
+    left: 500px;
+    border-radius: 50px;
+    color: white;
+    left: 1650px;
+    top: 50px;
+  }
+
+  .login{
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 1710px;  
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+
+  .icon-prime{
+    position: absolute;
+    top: 210px;
+    left: 650px;
+   
+  }
+
+  .text{
+    color: white;
+    top: 430px;
+    left: 400px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+  }
+
+  .text2{
+    color:blanchedalmond;
+    top: 550px;
+    left: 565px;
+    position: absolute;
+    font-family: open sans, sans-serif;
+    text-align: center;
+    font-size: large;
+    line-height: 1.5em;
+    font-size: 2.5em, large;
+  }
+
+  .rectangular-2{
+    width: 458px; 
+    height: 104px; 
+    background-color: white; 
+    border: 10px solid , white;  
+    top: 200px;
+    position: absolute;
+    left: 500px;
+    border-radius: 50px;
+    color: white;
+    left: 700px;
+    top: 700px;
+  }
+
+  .text3{
+    color: black;
+    top: 675px;
+    position: absolute;
+    left: 770px;
+    font-size: 2.5em;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .rectangular-blue{
+    position: absolute;
+    top: 1000px;
+    left: 30px;
+    
+  }
+
+  #rectangle{
+    position: absolute;
+    top: 1500px;
+    left: 3px;
+  }
+
+  #rectangle1{
+    position: absolute;
+    top: 750px;
+    left: 3px;
+  }
+
+  .text4{
+    position: absolute;
+    color: white;
+    left: 320px;
+    font-size: 2.0em;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 1050px;
+
+  }
+
+  .image-play{
+    position: absolute;
+    top: 1200px;
+    left: 750px;
+    filter: grayscale(100%) invert(100%);
+  }
+
+  .text5{
+    position: absolute;
+    color: white;
+    font-size: 2.0em;
+    top: 1500px;
+    text-align: center;
+    left: 380px;
+    font-family: sans-serif;
+
+  }
+
+  .text6{
+     position: absolute;
+     color: white;
+     top: 1780px;
+     left: 130px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.8em;
+  }
+
+  .images{
+    display: inline;
+  }
+
+  #image{
+    position: absolute;
+    top: 1950px;
+    left: 470px;
+  }
+
+  #image1{
+    position: absolute;
+    top: 1950px;
+    left: 670px;
+  }
+
+  #image2{
+    position: absolute;
+    top: 1950px;
+    left: 870px;
+  }
+
+  #image3{
+    position: absolute;
+    top: 1950px;
+    left: 1070px;
+  }
+
+  #image4{
+    position: absolute;
+    top: 1950px;
+    left: 1270px;
+  }
+
+  .text7{
+    position: absolute;
+    top: 2300px;
+    left: 250px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2.0em;
+    width: 1400px;
+
+  }
+
+  .text8{
+    position: absolute;
+    color:white;
+    top: 2550px;
+    left: 590px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+  .image-x{
+    position: absolute;
+    top: 2750px;
+    left: 850px;
+  }
+
+  .text9{
+    position: absolute;
+    top: 3000px;
+    left: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.0em;
+    text-align: center;
+    color: white;
+  }
+
+  .text10{
+    position: absolute;
+    top: 3260px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 450px;
+    font-size: 3.0em;
+  }
+
+  .text11{
+    position: absolute;
+    top: 3450px;
+    color: white;
+    font-family: Lato, Helvetica, sans-serif;
+    left: 330px;
+    font-size: 2.0em;
+    text-align: center;
+    line-height: 1.3em;
+  }
+
+  .flecha-I{
+    position: absolute;
+    top: 3600px;
+    left: 800px;
+    
+  }
+
+  .iphone{
+    position: absolute;
+    top: 3750px;
+    left: 250px;
+  }
+
+  .Mac{
+    position: absolute;
+    top: 3600px;
+    left: 590px;
+  }
+
+  .Pc{
+    position: absolute;
+    top: 3750px;
+    left: 1250px;
+  }
+
+  .text12{
+    position: absolute;
+    top: 4200px;
+    color: white;
+    left: 750px;
+  }
+
+  .image-firma{
+    position: absolute;
+    top: 4180px;
+    left: 720px;
+  }
+
+
+  .privacy{
+    position: absolute;
+    top: 4330px;
+    left: 450px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+  }
+
+  .Terms{
+    position: absolute;
+    top: 4330px;
+    left: 650px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+  .Sales{
+    position: absolute;
+    top: 4330px;
+    left: 850px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+  .Legal{ 
+    position: absolute;
+    top: 4330px;
+    left: 1120px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+  .Site{
+    position: absolute;
+    top: 4330px;
+    left: 1250px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
